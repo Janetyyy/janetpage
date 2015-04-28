@@ -14,19 +14,22 @@ p {
 #diamond-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 14%;
   display: block;
   height: 250px;
   width: 200px;
   background-image: url("janetpagediamond.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-80%);
 }
 
 #fashion {
   display: block;
-  margin-right: 12px;
+  margin-right: 10px;
   margin-bottom: 2px;
+  margin-top: 5px;
   z-index: 10;
    -ms-transform: rotate(-60deg);
    -webkit-transform: rotate(-60deg);
@@ -37,8 +40,6 @@ p {
 }
 
 #fashion a {
-  text-align: center;
-  margin-top: 7px;
   color: #70696b;
   text-decoration: none;
   transform: rotate(45deg);
