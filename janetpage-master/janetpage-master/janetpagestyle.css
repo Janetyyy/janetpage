@@ -4,21 +4,16 @@ body {
 }
 
 p {
-  text-align: right;
+  margin-left: 90%;
   color: #8d9199;
   font-size: 16px;
-  margin-right: 16px;
-  margin-top: 24px;
+  margin-top: 2%;
 }
 
 
 #diamond-container {
   margin-left: auto;
   margin-right: auto;
-<<<<<<< HEAD
-  margin-top: 14%;
-=======
->>>>>>> origin/master
   display: block;
   height: 250px;
   width: 200px;
@@ -32,8 +27,9 @@ p {
 
 #fashion {
   display: block;
-  margin-right: 12px;
+  margin-right: 10px;
   margin-bottom: 2px;
+  margin-top: 5px;
   z-index: 10;
    -ms-transform: rotate(-60deg);
    -webkit-transform: rotate(-60deg);
@@ -44,8 +40,6 @@ p {
 }
 
 #fashion a {
-  text-align: center;
-  margin-top: 7px;
   color: #70696b;
   text-decoration: none;
   transform: rotate(45deg);
