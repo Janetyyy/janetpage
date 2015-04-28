@@ -10,9 +10,6 @@ p {
   margin-top: 2%;
 }
 
-#diamond img {
-  margin-left: 45%;
-}
 
 #diamond-container {
   align: center;
@@ -25,6 +22,10 @@ p {
 }
 
 #fashion {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-top: 5px;
   z-index: 10;
    -ms-transform: rotate(-60deg);
    -webkit-transform: rotate(-60deg);
@@ -35,13 +36,15 @@ p {
 }
 
 #fashion a {
-  margin-right: 50px;
   color: #70696b;
   text-decoration: none;
   transform: rotate(45deg);
 }
 
 #web {
+  margin-left: 15px;
+  margin-top: 0;
+  display: inline-block;
   z-index: 10;
    -ms-transform: rotate(45deg);
    -webkit-transform: rotate(45deg);
@@ -52,7 +55,7 @@ p {
 }
 
 #web a {
-  margin-left: 130px;
+  margin-left: 120px;
   color: #7a797a;
   text-decoration: none;
   text-align: center;
@@ -60,6 +63,9 @@ p {
 }
 
 #gorillas {
+  margin-top: 135px;
+  margin-left: 35px;
+  display: inline-block;
   z-index: 10;
    -ms-transform: rotate(50deg);
    -webkit-transform: rotate(50deg);
@@ -70,12 +76,17 @@ p {
 }
 
 #gorillas a {
-  margin-left: 122px;
+  margin-right: 5px;
   color: #73787f;
   text-decoration:none;
+  text-align: center;
 }
 
 #photos {
+  margin-left: 30px;
+  padding-top: 10px;
+  text-align: center;
+  display:block;
   z-index: 10;
    -ms-transform: rotate(-60deg);
    -webkit-transform: rotate(-60deg);
@@ -86,7 +97,7 @@ p {
 }
 
 #photos a {
-  margin-right: 200px;
+  margin-left: 80px;
   color: #78747c;
   text-decoration:none;
 }
