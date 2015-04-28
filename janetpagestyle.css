@@ -4,10 +4,11 @@ body {
 }
 
 p {
-  margin-left: 90%;
+  text-align: right;
   color: #8d9199;
   font-size: 16px;
-  margin-top: 2%;
+  margin-right: 16px;
+  margin-top: 24px;
 }
 
 
