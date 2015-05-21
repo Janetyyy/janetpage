@@ -1,0 +1,14 @@
+body {
+  background-color: #221e1f;
+  font-family: Myriad Pro, sans-serif;
+}
+
+#photo img{
+  width: 450px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#photo {
+  display: inline-block;
+}
